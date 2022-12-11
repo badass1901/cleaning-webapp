@@ -1,0 +1,190 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
+body {
+  padding: 0;
+  margin: 0;
+}
+.navbar-primary {
+  padding: 0;
+  margin: 0;
+  max-width: 99.8%;
+  min-height: 77px;
+  display: flex;
+  flex-direction: row;
+}
+.con {
+  height: 100%;
+}
+.navbar-brand {
+  position: initial;
+  padding: 0;
+  flex-direction: row;
+  float: right;
+  margin-left: 50px;
+  width: 12%;
+  height: 100%;
+  .navlogo {
+    margin: 0;
+    width: 4.2rem;
+    height: 4.4rem;
+  }
+  .cleaningExpert {
+    text-transform: uppercase;
+    font-size: 18px;
+    line-height: 112.9%;
+    font-weight: 600;
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    display: flex;
+    flex-direction: column;
+    margin: 2px 0 0 6%;
+  }
+}
+.navbar-nav2 {
+  justify-content: space-evenly;
+  min-height: 70px;
+  .nav-item {
+    margin: 0 30px 0 0;
+    .nav-link {
+      color: #001f5a !important;
+      font-size: 20px;
+      font-family: "Montserrat";
+    }
+  }
+}
+.dropdown-toggle:after {
+  display: none !important;
+}
+.fa-angle-down {
+  margin: 0 0 0 10px;
+}
+.divider {
+  border-right: 3px solid #b2b2b2;
+  margin: 8px 30px 0 20px;
+  position: absolute;
+  height: 15px;
+}
+
+.free-quotes {
+  color: orange !important;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Montserrat";
+  letter-spacing: -0.8px;
+}
+.fa-shopping-cart {
+  margin: 0 0 0 2rem;
+}
+.supscript {
+  position: relative;
+  top: -1.8em;
+  left: 0.2rem;
+  font-size: 10px;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .navbar-primary {
+    min-height: 52px;
+  }
+  .navbar-brand {
+    .navlogo {
+      max-height: 45px;
+    }
+    position: relative;
+    right: 56%;
+    .cleaningExpert {
+      font-size: 16px;
+      margin-right: 0.6rem;
+    }
+  }
+
+  .divider {
+    display: none;
+  }
+  .fa-shopping-cart {
+    margin: 0;
+  }
+  .navcontactlogo {
+    align-items: center;
+    justify-content: center;
+    margin: 0 0 0 0;
+    .whatsapplogo {
+      margin: 0 0 0 18px;
+      width: 2rem;
+      height: 2rem;
+    }
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .navbar-brand {
+    position: relative;
+    right: 56%;
+    .cleaningExpert {
+      font-size: 16px;
+      margin-right: 0.6rem;
+    }
+  }
+  .navcontactlogo {
+    align-items: center;
+    justify-content: center;
+    margin: 0 0 0 0;
+    .whatsapplogo {
+      margin: 0 0 0 5px;
+      width: 1.8rem;
+      height: 1.8rem;
+    }
+  }
+}
+
+/* Media query for desktop and tab  */
+@media only screen and (min-width: 992px) {
+  .navbar-brand {
+    position: initial;
+    width: 90%;
+  }
+
+  .navcontactlogo {
+    visibility: hidden;
+    .whatsapplogo {
+      display: none;
+    }
+  }
+  .navbar-nav2{
+    width: min-content;
+    .nav-item{
+      width: 60%;
+      .nav-link{
+        font-size: 18px;
+        padding: 0;
+      }
+    }
+  }
+}
+ 
+
+/* Media Query For Desktop Only  */
+@media only screen and (min-width: 1200px)
+
+{ .navbar-brand {
+    position: initial;
+  }
+  .navcontactlogo {
+    visibility: hidden;
+    .whatsapplogo {
+      display: none;
+    }
+  }
+  .navbar-nav2{
+    width: min-content;
+    .nav-item{
+      width: 100%;
+      .nav-link{
+        font-size: 20px;
+        padding: 0.8rem;
+       
+      }
+    }
+  }
+}

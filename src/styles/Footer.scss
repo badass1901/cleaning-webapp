@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+.footer{
+    background-color:#ededed;
+    min-height: 60vh;
+    box-shadow: 2px 2px 5px #ccc;
+    
+}
+.downloadAppSection{
+    position: initial;
+    font-family: 'Poppins', sans-serif;
+    color:#025B5D;
+    letter-spacing: 8%;
+    font-size: 14px;
+    img{
+        margin-left: 8% ;
+        width: 150px;
+    }
+}
+
+
+.socialIcons{
+    width: 33px;
+    margin: 10px;
+}
+
+
+.FooterLinks{
+    font-family: "Montserrat", sans-serif;
+    
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .downloadAppSection{
+        position: relative;
+        bottom: 350px;
+
+        img{
+            margin-left: 2% ;
+        }
+    }
+    .socialRow{
+        margin-top: -50px;
+    }
+  }
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) {
+    .downloadAppSection{
+        position: relative;
+       
+        bottom: 350px;
+
+        img{
+            margin-left: 2% ;
+        }
+    }
+    // .socialRow{
+    //     margin-top: -50px;
+    // }
+  }
+  
+
+  @media only screen and (min-width: 768px) {
+    .downloadAppSection{
+        position : initial;
+    }
+  }
+  /* Media query for desktop and tab  */
+  @media only screen and (min-width: 992px) {
+    .downloadAppSection{
+        position : initial;
+    }
+    .socialRow{
+        margin-top: 0px;
+    }
+   
+  }
+  
+  /* Media Query For Desktop Only  */
+  @media only screen and (min-width: 1200px) {
+  }
+  

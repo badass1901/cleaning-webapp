@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+.FAQ{
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    margin: 0 0 10% 0;
+}
+.faq-heading{
+    font-family: 'Montserrat';
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.FAQ-d{
+    background-color: #f6f6f6;
+    border-radius: 6px;
+    margin-bottom: 14px;
+    padding: 10px 0 10px 5%;
+    
+}
+.faq-toggle{
+    color: #000000;
+    margin-bottom: -20px;
+    height: 44px;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    .collapseIcon{
+        margin: 5px 30px 0 0;
+    }
+}
+
+
+.cs{
+    color: #000000;
+    font-family: 'Mulish', sans-serif;
+    margin-bottom: 20px;
+    font-weight: 400;
+}

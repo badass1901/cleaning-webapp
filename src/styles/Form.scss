@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish&display=swap");
+.formG {
+  display: none;
+  box-sizing: border-box;
+  width: 560px;
+  height: 385px;
+  border: 2px solid #e7e7e7;
+  justify-content: center;
+}
+.form-control {
+  height: 50px;
+  font-family: "Mulish", sans-serif;
+  font-weight: 700;   
+  border: 3px solid #dadada;
+  border-radius: 6px;
+}
+
+.form-control::placeholder {
+  color: #919191;
+  font-size: 18px;
+  font-family: "Mulish", sans-serif;
+}
+.submitBtn {
+    height: 50px;
+  background-color: #004c97;
+  width: 230px;
+  font-family: 'Mulish';
+  font-weight: 100;   
+  font-size: 19.5px;
+  border-radius: 6px;
+}
+.dt{
+    height: 50px;
+    background-color: transparent;
+    width: 100%;
+    color: #000;
+    border: 3px solid #dadada;
+    font-family: 'Mulish';
+    font-weight: 700;   
+    font-size: 19.5px;
+    border-radius: 6px;
+
+  
+}  
+.dm{
+        min-width:96% ;
+        
+    }
+
+    
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+  }
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) {
+   
+  }
+  
+
+  @media only screen and (min-width: 768px) {
+    
+  }
+  /* Media query for desktop and tab  */
+  @media only screen and (min-width: 992px) {
+    .formG{
+        display: block;
+        
+    }
+  }
+  
+  /* Media Query For Desktop Only  */
+  @media only screen and (min-width: 1200px) {
+  }
+  

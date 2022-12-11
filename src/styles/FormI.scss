@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish&display=swap");
+.formI {
+  position: relative;
+  box-sizing: border-box;
+  margin-top: 0;
+  bottom: 110px;
+  width: 460px;
+  height: 420px;
+  border: 2px solid #e7e7e7;
+  justify-content: center;
+}
+.form-control {
+  height: 50px;
+  font-family: "Mulish", sans-serif;
+  font-weight: 700;   
+  border: 3px solid #dadada;
+  border-radius: 6px;
+}
+
+.form-control::placeholder {
+  color: #919191;
+  font-size: 16px;
+  font-family: "Mulish", sans-serif;
+}
+.submitBtn {
+    height: 50px;
+  background-color: #004c97;
+  width: 230px;
+  font-family: 'Mulish';
+  font-weight: 100;   
+  font-size: 19.5px;
+  border-radius: 6px;
+}
+.dt{
+    height: 50px;
+    background-color: transparent;
+    width: 100%;
+    color: #000;
+    border: 3px solid #dadada;
+    font-family: 'Mulish';
+    font-weight: 700;   
+    font-size: 19.5px;
+    border-radius: 6px;
+}  
+.dm{
+        min-width:96% ;  
+        font-size: 16px;
+    }
+  .row5{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .col1{
+    margin: 0 5px 0 0;
+   
+  }
+
+    
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .col1{
+    margin: 0 0 0 0;
+  }
+  .row5{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+    .formI{
+      margin-bottom: 50px;
+        width: 350px;
+        height: 430px;
+    }
+    .dt{
+        font-size: 15px;
+    }
+    .form-control::placeholder{
+        font-size: 15px;
+    }
+  }
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) {
+   
+  }
+  
+
+  @media only screen and (min-width: 768px) {
+   
+    
+  }
+  /* Media query for desktop and tab  */
+  @media only screen and (min-width: 992px) {
+    .dt{
+      font-size: 16px;
+    }
+    .formI{
+      width: 400px;
+      height: 350px;
+      opacity: 0.9;
+      top: -250px;
+      left: 250px;
+    }
+    
+  }
+  
+  /* Media Query For Desktop Only  */
+  @media only screen and (min-width: 1200px) {
+    .dt{
+      font-size: 16px;
+    }
+    .formI{
+      margin-bottom: -200px;
+      width: 400px;
+      height: 320px;
+      opacity: 0.9;
+      top: -300px;
+      left: 380px;
+    }
+  }
+  
+  @media only screen and (min-width: 1600px) {
+    .dt{
+      font-size: 16px;
+    }
+    .formI{
+      width: 400px;
+      height: 350px;
+      opacity: 0.9;
+      top: -400px;
+      left: 600px;
+    }
+  
+  }

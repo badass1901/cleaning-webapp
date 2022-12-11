@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish&display=swap");
+.top10{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 0;
+}
+.boxHeading{
+    color: #000000 ;
+    font-size: 32px;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 700;
+    line-height: 30px;
+    margin: 0 0 2em 0;
+}
+
+.box{
+    padding: 2.5em 1em;
+    box-sizing: border-box;
+    margin: 20px;
+    border: 1px solid #E2E2E2;
+   
+   
+    
+}
+.itemTitle{
+    color: #000000;
+    font-size: 19px;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.liItems{
+    color: #000000;
+    font-size: 19px;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 400;
+}
+.orderedList{
+    margin-bottom: 5rem;
+}

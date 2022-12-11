@@ -1,0 +1,95 @@
+.container {
+  .avgRating{
+    .icon{
+      margin: 16px 4px 0 0;
+    }
+    p{
+      font-size: 30px;
+      font-family: "Roboto", sans-serif;
+      font-weight: 600;
+    }
+    margin: 0 0 -14px 0;
+    line-height: 33px;
+    display:flex;
+    flex-direction: row;
+    color: #000000;
+    
+  }
+  small{
+    font-size:12px;
+    color: #000000;
+  }
+  ul {
+    padding: 0;
+  }
+}
+
+.li {
+  list-style: none;
+}
+.review {
+  border-top: 2px solid #ebebeb;
+  border-bottom: 2px solid #ebebeb;
+
+  .profile {
+    display: flex;
+    font-family: "Roboto", sans-serif;
+    div {
+      width: 100%;
+      margin-left: 30px;
+      span {
+        color: #000000;
+        display: flex;
+        justify-content: space-between;
+        margin: 0;
+        margin-bottom: -5px;
+      }
+      p {
+        width: 100%;
+        font-size: 14px;
+      }
+    }
+  }
+
+  img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 10%;
+  }
+  .card-text {
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 18px;
+    color: #000000;
+  }
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .profile {
+    div {
+      margin-left: 10px !important;
+      p {
+        font-size: 12px !important;
+      }
+    }
+  }
+  .card-text {
+    font-size: 14px !important;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+}
+
+@media only screen and (min-width: 768px) {
+}
+/* Media query for desktop and tab  */
+@media only screen and (min-width: 992px) {
+}
+
+/* Media Query For Desktop Only  */
+@media only screen and (min-width: 1200px) {
+}

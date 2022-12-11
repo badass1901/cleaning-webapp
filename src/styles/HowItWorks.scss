@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+.howItWorks {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 60px;
+}
+.header {
+  color: #025b5d;
+  font-size: 22px;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 0.06em;
+}
+.underline {
+  width: 150px;
+  margin: -20px 0 0 0;
+  height: 3px !important;
+  background-color: #7e7e7e;
+}
+.row1{
+    padding: 20px 0 20px 18px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+   
+    
+}
+
+.pHead {
+  font-size: 18px;
+  margin: 10px 0 0 0;
+  font-weight: 700;
+  line-height: 21px;
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 0.03em;
+}
+.pSmall {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.03em;
+}
+.howItWorksColumn {
+  display: flex;
+  width: 98%;
+  flex-direction: row;
+  align-items: center;
+  div{
+    margin: 10px 0 0 15px;
+  }
+}
+.howItWorksLogo {
+    margin: 10px 0 0 0;
+    border: 2px solid rgba(117, 117, 117, 0.5);
+  width: 58px;
+  height: 58px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+
+  img {
+    width: 20px;
+    object-fit: cover;
+  }
+}
+.dash{
+position: relative;
+width: 16px;
+height: 0px;
+right:280px;
+top: 43.5px;
+border-radius: 8px;
+background-color: rgba(117, 117, 117, 0.3);
+border: 2px solid rgba(117, 117, 117, 0.3);
+transform: rotate(-90deg);
+}
+.dash2{
+position: relative;
+width: 16px;
+height: 0px;
+right:272px;
+top: 43.5px;
+border-radius: 8px;
+background-color: rgba(117, 117, 117, 0.3);
+border: 2px solid rgba(117, 117, 117, 0.3);
+transform: rotate(-90deg);
+}
+.dash3{
+position: relative;
+width: 16px;
+height: 0px;
+right:309px;
+top: 43.5px;
+border-radius: 8px;
+background-color: rgba(117, 117, 117, 0.3);
+border: 2px solid rgba(117, 117, 117, 0.3);
+transform: rotate(-90deg);
+}

@@ -1,0 +1,86 @@
+.chooseServiceMobile{
+    border-radius: 20px;
+    display: block;
+    border: 2px solid rgb(218, 218, 218);
+    box-shadow: 4px 6px 8px rgba(0, 0, 0, 0.3);
+    width: 100%;
+
+    h1{
+        font-family: 'Mulish', sans-serif;
+        font-weight: 600;
+        margin: -10px 0 12px 0;
+    }
+}
+.rowM{
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+.mobileServiceImage{
+    width: 18%;
+}
+.rows{
+    width: 100%;
+    border: 1px solid rgb(231, 228, 228);
+    padding: 0.8rem 0.2rem 0.8rem 0.8rem ;
+    border-left: 0px;
+    border-right: 0px;
+
+    h5{
+        font-family: 'Mulish', sans-serif;
+        font-size: 18px;
+        font-weight: 600;
+        color: #000000;
+    }
+}
+.serviceTitleMobile{
+   margin-left: 20px;
+  
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    .chooseServiceMobile{
+        display: block;
+    }
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .chooseServiceMobile{
+        display: block;
+    }
+}
+
+
+@media only screen and (min-width: 768px) {
+    .chooseServiceMobile{
+        display: block;
+    }
+      
+}
+/* Media query for desktop and tab  */
+@media only screen and (min-width: 992px) {
+    .chooseServiceMobile{
+        display: none;
+    }
+}
+
+/* Media Query For Desktop Only  */
+@media only screen and (min-width: 1200px) {
+    .chooseServiceMobile{
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 1600px) {
+    .chooseServiceMobile{
+        display: none;
+    }
+
+}
+

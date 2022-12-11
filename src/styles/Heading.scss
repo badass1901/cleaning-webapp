@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish&display=swap");
+.headingDiv {
+  // border: 2px solid red;
+  position: relative;
+  left: 64px;
+  top: -50px;
+  width: 725px;
+  height: 130px;
+}
+.headingS {
+  font-size: 42px;
+  font-family: "Mulish", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 66px;
+  color: #ffffff;
+  text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+}
+
+@media only screen and (max-width: 600px) {
+  .headingDiv {
+    width: 300px;
+    left: 20px;
+    top: -160px;
+    height: 70px;
+    margin-bottom: -40px;
+  }
+  .headingS {
+    font-size: 22px;
+    line-height: 27.61px;
+  }
+}
+@media only screen and (min-width: 600px) {}
+
+/* Media Query For Desktop Only  */
+@media only screen and (min-width: 1600px) {
+  .headingDiv {
+    width: 725px;
+    left: 64px;
+    top: -150px;
+    height: 130px;
+  }
+  .headingS {
+    font-size: 52px;
+    font-family: "Mulish", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 66px;
+    color: #ffffff;
+    text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+  }
+}
